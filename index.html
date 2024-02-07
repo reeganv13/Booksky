@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+    <h1>Booksky</h1>
+    </div>
+
+    <div class="container">
+        <div class="Book-containerBox">
+            <h2 id="bookName-input">The God of Small Things </h2>
+            <h5 id="bookAuthor-input">Arundhati Roy</h5>
+            <p id="bookDescription-input">The God of Small Things is a modern classic that is fascinating and heart-breaking. The story’s central plot revolves around the fraternal twins, Estha and Rahel, and their experiences since childhood and as adults. The book contains usually frowned-upon themes, but they play important parts in making the novel whole.
+
+            </p>
+            <button id="deleteButton" onclick="delete1(event)">Delete</button>
+        </div>
+
+    </div>
+    <div id="popup-overlay"></div>
+    <div id="popup-box">
+        <h2>Add Book</h2>
+        <form >
+            <input type="text"id="bookName-input2" placeholder="Book Title">
+            <input type="text" id="bookAuthor-input2" placeholder="Book Author">
+            <textarea name="" id="bookDescription-input2" placeholder="Short Description.." cols="15"rows="5"></textarea>
+            <button id="Add" onclick="Add()">ADD</button>
+            <button id="Cancel" >CANCEL</button>
+
+        </form>
+    </div>
+        <button id="addButton" onclick="addBtn()">+</button>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

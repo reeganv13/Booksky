@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+}
+
+.navbar{
+    background-color: rgb(233, 141, 141);
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.Book-containerBox{
+    background-color: black;
+    width: 25%;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    vertical-align: top;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif
+}
+#bookName-input{
+    color: rgb(233, 141, 141);
+}
+#bookAuthor-input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#deleteButton{
+    background-color: rgb(233, 141, 141);
+    padding:5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#addButton{
+   background-color:rgb(233, 141, 141); 
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 100%;
+   font-size: 40px;
+   border: none;
+   margin-top: 20px;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   cursor: pointer;
+    
+}
+#popup-overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+#popup-box{
+    background-color:rgb(233, 141, 141); 
+    width: 40%;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+#bookName-input2{
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+#bookAuthor-input2{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#bookDescription-input2{
+    width: 100%;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+}
+input::placeholder{
+    color: black;
+}
+textarea::placeholder{
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+#Add{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#Cancel{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    margin-top: 10px;
+}
